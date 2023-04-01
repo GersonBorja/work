@@ -12,7 +12,7 @@ export function Router () {
       cbcallback: (res) => {
         let htmlDinamico = ''
         res.empresas.forEach(item => {
-          htmlDinamico = `
+          htmlDinamico += `
           <li><a href="#" style="font-size: 10px" class="empresa_Item"><i class="fa-regular fa-circle"></i>${item.razonsocial}</a></li>`
         })
         document.getElementById('submenu_Empresas').innerHTML = ''

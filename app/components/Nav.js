@@ -1,5 +1,4 @@
-function llamar () {
-}
+
 export function Nav(){
   let $nav = document.createElement('nav')
   $nav.id = 'menu_Nav'
@@ -15,7 +14,7 @@ export function Nav(){
   <ul class="accordion-container">
     <li class="ac">
       <div class="ac-header submenuEmp">
-        <a href="#" class="ac-trigger btnMenuLi">Cambiar empresa</a>
+        <button type="button" class="ac-trigger btnMenuLi">Cambiar empresa</button>
       </div>
       <ul id="submenu_Empresas" class="ac-panel"></ul>
     </li>
@@ -26,6 +25,8 @@ export function Nav(){
   </ul>`
   
   $nav.innerHTML = htmlDinamico
-  
+  $nav.addEventListener('load', function() {
+    new Accordion('.accordion-container');
+  });
   return $nav
 }
