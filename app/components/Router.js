@@ -7,19 +7,7 @@ export function Router () {
   const $main = document.getElementById('main')
   
   if(!hash || hash === '#/'){
-    ajax({
-      url: api.API_EMPRESAS,
-      cbcallback: (res) => {
-        let htmlDinamico = ''
-        res.empresas.forEach(item => {
-          htmlDinamico += `
-          <li><a href="#" style="font-size: 10px" class="empresa_Item"><i class="fa-regular fa-circle"></i>${item.razonsocial}</a></li>`
-        })
-        document.getElementById('submenu_Empresas').innerHTML = ''
-        document.getElementById('submenu_Empresas').insertAdjacentHTML('beforeend', htmlDinamico)
-        new Accordion('.accordion-container');
-      }
-    })
+    
   
 }else if(hash.includes('#/tipodedatos')){
   $main.appendChild(MenuTipoDeDatos())
