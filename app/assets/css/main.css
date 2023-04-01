@@ -1,0 +1,105 @@
+:root {
+  --color-header: #252525;
+  --color-texto-white: #fff;
+  --color-bg-nav: #333;
+  --bg-buscador-empresa: #252525;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+}
+
+.align {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* MENU PRINCIPAL*/
+header {
+  padding: 1rem;
+  background: var(--color-header);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  flex: 1;
+  color: var(--color-texto-white);
+  font-size: 17px;
+  font-weight: 400;
+}
+
+nav#menu_Nav {
+  background: var(--color-bg-nav);
+  display: block;
+  position: fixed;
+  top: -0;
+  left: -100%;
+  width: 75%;
+  height: 100vh;
+  transition: left 0.3s ease-in-out;
+  z-index: 5;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav#menu_Nav ul li {
+  border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+nav ul li a, .btnMenuLi{
+  padding: 1rem;
+  color: var(--color-texto-white);
+  display: block;
+  font-size: 14px;
+}
+
+.btn_Menu {
+  color: var(--color-texto-white);
+}
+
+.btn_Alertas {
+  color: var(--color-texto-white);
+  margin-right: 2rem;
+}
+
+.submenu {
+  background: #474747;
+  padding-left: 1.5rem;
+  display: block;
+}
+
+ul.submenu li {
+  border-bottom: none;
+}
+.empresa_Item {
+  padding-left: 1rem;
+}
+
+/* tipos de datos view */
+
+.tipos_De_Documentos_View h1 {
+  padding: 1rem;
+  font-weight: 400;
+  color: #000;
+  font-size: 17px;
+}
+
+.option_Menu {
+  padding: .5rem 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.menuTipoDato {
+  padding: .5rem 1rem .5rem 2rem;
+  color: #000;
+}

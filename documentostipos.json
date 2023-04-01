@@ -1,0 +1,208 @@
+{
+    "estado": 1,
+    "mensaje": "Acceso garantizado...",
+    "docs": [
+        {
+            "documentoclaseid": 28,
+            "nombre": "BANCOS",
+            "documentostipos": [
+                {
+                    "documentotipoid": 122,
+                    "nombre": "Deposito"
+                }
+            ]
+        },
+        {
+            "documentoclaseid": 30,
+            "nombre": "CAJA",
+            "documentostipos": [
+                {
+                    "documentotipoid": 119,
+                    "nombre": "Apertura de Caja"
+                },
+                {
+                    "documentotipoid": 127,
+                    "nombre": "Entrega de dinero a liquidador"
+                },
+                {
+                    "documentotipoid": 142,
+                    "nombre": "Gasto de Vendedor"
+                }
+            ]
+        },
+        {
+            "documentoclaseid": 23,
+            "nombre": "COMPRAS",
+            "documentostipos": [
+                {
+                    "documentotipoid": 120,
+                    "nombre": "Compras"
+                }
+            ]
+        },
+        {
+            "documentoclaseid": 31,
+            "nombre": "PEDIDOS Y COTI",
+            "documentostipos": [
+                {
+                    "documentotipoid": 121,
+                    "nombre": "Cotizaci\u00f3n"
+                },
+                {
+                    "documentotipoid": 200,
+                    "nombre": "Orden de entrega"
+                }
+            ]
+        },
+        {
+            "documentoclaseid": 24,
+            "nombre": "VENTAS",
+            "documentostipos": [
+                {
+                    "documentotipoid": 123,
+                    "nombre": "Devolucion de Producto"
+                },
+                {
+                    "documentotipoid": 130,
+                    "nombre": "Factura de Contado"
+                },
+                {
+                    "documentotipoid": 149,
+                    "nombre": "Factura de Oportunidad"
+                }
+            ]
+        },
+        {
+            "documentoclaseid": 32,
+            "nombre": "CONSIGNACIONES",
+            "documentostipos": [
+                {
+                    "documentotipoid": 124,
+                    "nombre": "Devoluci\u00f3n de Producto en Consignaci\u00f3n"
+                },
+                {
+                    "documentotipoid": 126,
+                    "nombre": "Entrega de Producto en Consignaci\u00f3n"
+                }
+            ]
+        },
+        {
+            "documentoclaseid": 25,
+            "nombre": "INVENTARIO",
+            "documentostipos": [
+                {
+                    "documentotipoid": 128,
+                    "nombre": "Entrada de Inventario"
+                },
+                {
+                    "documentotipoid": 154,
+                    "nombre": "Salida de Inventario"
+                },
+                {
+                    "documentotipoid": 155,
+                    "nombre": "Traspaso Entre Bodegas"
+                },
+                {
+                    "documentotipoid": 156,
+                    "nombre": "Traspaso Sugerido"
+                }
+            ]
+        },
+        {
+            "documentoclaseid": 34,
+            "nombre": "COMPROBANTES ELECTRONICOS",
+            "documentostipos": [
+                {
+                    "documentotipoid": 131,
+                    "nombre": "Factura Electronica de Compra"
+                },
+                {
+                    "documentotipoid": 134,
+                    "nombre": "Nota Credito Electronica\/Devoluc Contado"
+                },
+                {
+                    "documentotipoid": 135,
+                    "nombre": "Nota Credito Electronica\/Devoluc Credito"
+                },
+                {
+                    "documentotipoid": 136,
+                    "nombre": "Nota de Credito Electronica \/ Contado"
+                },
+                {
+                    "documentotipoid": 137,
+                    "nombre": "Nota de Credito Electronica \/ Credito"
+                },
+                {
+                    "documentotipoid": 138,
+                    "nombre": "Nota de Debito Electronica \/ Contado"
+                },
+                {
+                    "documentotipoid": 139,
+                    "nombre": "Nota de Debito Electronica \/ Credito"
+                },
+                {
+                    "documentotipoid": 140,
+                    "nombre": "Tiquete Electronico \/ Contado"
+                }
+            ]
+        },
+        {
+            "documentoclaseid": 33,
+            "nombre": "GASTOS",
+            "documentostipos": [
+                {
+                    "documentotipoid": 141,
+                    "nombre": "Comprobante de Gasto"
+                }
+            ]
+        },
+        {
+            "documentoclaseid": 29,
+            "nombre": "MOV. INTERNOS",
+            "documentostipos": [
+                {
+                    "documentotipoid": 143,
+                    "nombre": "Movimiento Interno"
+                },
+                {
+                    "documentotipoid": 125,
+                    "nombre": "Devolucion Interna"
+                }
+            ]
+        },
+        {
+            "documentoclaseid": 26,
+            "nombre": "COBRO",
+            "documentostipos": [
+                {
+                    "documentotipoid": 144,
+                    "nombre": "Nota Cr\u00e9dito (Saldos Menores CXC)"
+                },
+                {
+                    "documentotipoid": 145,
+                    "nombre": "Nota de Credito (CXC)"
+                },
+                {
+                    "documentotipoid": 146,
+                    "nombre": "Nota D\u00e9bito (Saldos Menores CXC)"
+                },
+                {
+                    "documentotipoid": 147,
+                    "nombre": "Nota de Debito (CXC)"
+                },
+                {
+                    "documentotipoid": 151,
+                    "nombre": "Recibo de Dinero"
+                },
+                {
+                    "documentotipoid": 152,
+                    "nombre": "Recibo de Dinero (Venta de Contado)"
+                },
+                {
+                    "documentotipoid": 153,
+                    "nombre": "Recibo de Dinero ANULADO"
+                }
+            ]
+        }
+    ]
+}

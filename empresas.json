@@ -1,0 +1,18 @@
+{
+	"estado": 1,
+	"mensaje": "Acceso garantizado...",
+	"empresas": [
+		{
+			"empresaid": 1,
+			"razonsocial": "XXXX REPUESTOS BARRIO SAN JOSE"
+		},
+		{
+			"empresaid": 3,
+			"razonsocial": "A R H DE ALAJUELA SOCIEDAD ANONIMA"
+		},
+		{
+			"empresaid": 2,
+			"razonsocial": "REPUESTOS BARRIO SAN JOSE"
+		}
+	]
+}
