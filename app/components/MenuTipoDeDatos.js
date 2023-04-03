@@ -12,7 +12,11 @@ export function MenuTipoDeDatos() {
 
   $div.innerHTML = htmlDinamico
 
-  // Agregar evento de carga del acordeón
+  document.addEventListener('click', (e) => {
+    if(!e.target.matches('a.menuTipoDato')) return false
+    localStorage.setItem('id', e.target.dataset.id)
+    localStorage.setItem('seccion', e.target.dataset.seccion)
+  })
   
 
   return $div

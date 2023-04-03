@@ -1,6 +1,7 @@
 import api from '../helpers/api.js'
 import {ajax} from '../helpers/ajax.js'
 import {MenuTipoDeDatos} from './MenuTipoDeDatos.js'
+import {BusquedaClientes} from './BusquedaClientes.js'
 
 export function Router () {
   const {hash} = location
@@ -25,7 +26,7 @@ export function Router () {
             <ul class="ac-panel">`
             elem.documentostipos.forEach((ele) => {
             htmlDinamico += `
-            <li><a href="#" class="menuTipoDato">${ele.nombre}</a></li>
+            <li><a href="#/${ele.nombre}" data-seccion="${ele.nombre}" data-id="${ele.documentotipoid}"  class="menuTipoDato">${ele.nombre}</a></li>
             `
           })
           htmlDinamico +=  `</ul></li>
@@ -35,5 +36,9 @@ export function Router () {
         new Accordion('.container-second')
       }
 })
+}else if(hash.includes('#/Tiquete%20Electronico%20/%20Contado')){
+  $main.appendChild(BusquedaClientes())
+  }else{
+  $main.innerHTML = 'hola'
 }
 }

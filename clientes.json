@@ -1,0 +1,86 @@
+{
+    "estado": 1,
+    "mensaje": "Acceso garantizado...",
+    "clientes": [
+        {
+            "clienteid": 3058,
+            "nombre": "ALVARO ALFARO BARBOZA"
+        },
+        {
+            "clienteid": 4649,
+            "nombre": "3-101-548799 S.A"
+        },
+        {
+            "clienteid": 4745,
+            "nombre": "JUAN PABLO URE\u00d1A PEREZ"
+        },
+        {
+            "clienteid": 4815,
+            "nombre": "JOHANNA VANESSA TORU\u00d1O MORENO"
+        },
+        {
+            "clienteid": 4816,
+            "nombre": "DAVID MOYA ELIZONDO"
+        },
+        {
+            "clienteid": 4828,
+            "nombre": "NARCISO JOSUE GARRO MENA"
+        },
+        {
+            "clienteid": 4829,
+            "nombre": "LUBRICANTES BELEN S.A."
+        },
+        {
+            "clienteid": 4830,
+            "nombre": "QUINIENTOS SEIS LAND BUSINESS CR SOCIEDAD ANONIMA"
+        },
+        {
+            "clienteid": 4831,
+            "nombre": "MICHELLE VANESSA CASTILLO RAMIREZ"
+        },
+        {
+            "clienteid": 4832,
+            "nombre": "DISTRIBUIDORA TECNICA INDUSTRIAL DISTEINSA SOCIEDAD ANONIMA"
+        },
+        {
+            "clienteid": 4833,
+            "nombre": "MARIO LEIVA VALVERDE"
+        },
+        {
+            "clienteid": 4834,
+            "nombre": "FELIX LIZANDRO VILLALOBOS VARGAS"
+        },
+        {
+            "clienteid": 4835,
+            "nombre": "LUIS GERARDO MORALES BARRANTES"
+        },
+        {
+            "clienteid": 4836,
+            "nombre": "LIGIA MAYELA FALLAS RODRIGUEZ"
+        },
+        {
+            "clienteid": 4837,
+            "nombre": "SISTEMAS DEL FUTURO UREGON SRL"
+        },
+        {
+            "clienteid": 4746,
+            "nombre": "3-102-796668 S.R.L"
+        },
+        {
+            "clienteid": 4747,
+            "nombre": "ALVARO GERARDO DE LOS ANGELES MENDEZ ROMERO"
+        },
+        {
+            "clienteid": 4748,
+            "nombre": "DIANNE DENNISE CALVO CORDOBA"
+        },
+        {
+            "clienteid": 4749,
+            "nombre": "ADRIANA VALENTINA GUTIERREZ GARCIA"
+        },
+        {
+            "clienteid": 4838,
+            "nombre": "AUTO REPUESTOS MAJAVI SOCIEDAD ANONIMA"
+        }
+    ]
+}
