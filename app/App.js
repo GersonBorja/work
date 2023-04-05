@@ -24,8 +24,18 @@ export  function App () {
         new Accordion('.accordion-container');
       }
     })
+    
   $root.appendChild(Main())
-  Router()
-  //new Accordion('.container-second')
   
+  const appContainer = document.querySelector("main");
+appContainer.classList.remove("visible");
+
+setTimeout(() => {
+  appContainer.classList.add("visible");
+}, 0);
+
+
+
+  
+  Router()
 }

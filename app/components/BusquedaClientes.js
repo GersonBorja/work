@@ -12,11 +12,12 @@ export function BusquedaClientes() {
   function renderizarClientes(clientes){
     let items = ''
     clientes.forEach(item => {
-      items += `<a href="#" class="block border-b border-gray-300 p-4 text-black"><i class="far fa-user"></i>test ${item.nombre}</a>`
+      items += `<a href="#" class="block border-b border-gray-300 p-4 text-black"><i class="far fa-user"></i> ${item.nombre}</a>`
     })
     document.getElementById('lista').insertAdjacentHTML('beforeend', items)
   }
-  function mostrarClientes() {
+  function mostrarClientes(e) {
+    e.preventDefault()
     ajax({
       url: api.API_CLIENTES,
       cbcallback: (res) => {
